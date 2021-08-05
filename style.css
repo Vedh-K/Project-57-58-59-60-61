@@ -1,0 +1,146 @@
+
+
+img{
+  width:300px;
+  border-radius:20px;
+}
+
+
+
+p {
+    font-size:20px;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.profile{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome{
+    background:linear-gradient(pink 0%, aquamarine 100%);
+    position: absolute;
+    overflow: hidden;
+   height: 800px;
+    height: 100%;
+    color: black;
+    width: 100%;
+    display: table;
+    z-index: 9;
+}
+.welcomediv{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+#bio{
+    padding-top: 1000px;
+    font-size: 40px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: cursive;
+}
+#name{
+    font-size: 30px;
+    font-family: 'Gowun Batang', serif;
+    
+}
+
+h2{
+ font-size: 40px;
+    font-weight: 300;
+    font-family: cursive;
+}
+
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+    
+}
+p{
+    max-width: 600px;
+    margin:25px auto;
+    font-size: 25px;
+    line-height: 1.3;
+    
+    
+}
+
+.menu {
+    top: 0;
+list-style: none;
+font-family: fantasy;
+position: fixed;  
+z-index: 10;
+cursor: pointer;
+    color:black;
+    background: black;
+    width: 100%;
+    margin-top: 0;
+}
+.links{
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    font-family: 'Gowun Batang', serif;
+     background-color:black;
+    display: inline;
+}
+
+.links:hover {
+    background-color:dodgerblue;
+    color: black !important;
+    font-size: 25px;
+    text-decoration: underline;
+    
+}
+a {
+    text-decoration: none;
+    color:white;
+    text-shadow: 2px 2px pink;
+    
+}
+.articles{
+    font-size: 20px;
+    color:blue;
+}
+
+.articles:hover {
+    color:darkgreen;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#writings a {
+ text-shadow: none !important;   
+text-decoration: underline !important;
+    color:green !important;
+}
+
+#contacts {
+    background: firebrick;
+    
+}
+
+.contact1 a {
+    text-shadow: none !important;
+    
+}
+
+.contact1 h3 {
+    display: inline;
+}
+    
